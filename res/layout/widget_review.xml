@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:background="@drawable/flash_card" >
+
+	    <TextView
+	        android:id="@+id/text_view_content_pronounce"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="20dp"
+	        android:gravity="center"
+	        android:visibility="invisible"
+	        android:maxLines="1"
+	        android:text="@string/empty"
+	        android:textColor="#FF1111"
+	        android:textSize="15sp" />
+
+		<TextView
+		    android:id="@+id/text_view_content"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginTop="20dp"
+		    android:gravity="center"
+		    android:lineSpacingExtra="4dp"
+		    android:maxLines="6"
+		    android:scrollbarAlwaysDrawVerticalTrack="true"
+		    android:scrollbars="vertical"
+		    android:text="There is no card to review"
+		    android:textColor="#444444"
+		    android:textSize="22sp" />
+
+		<TextView
+		    android:id="@+id/text_view_content_part"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:maxLines="2"
+		    android:visibility="invisible"
+		    android:text="@string/empty"
+		    android:textColor="#1111FF"
+		    android:textSize="16sp" />
+
+		<ImageView
+		    android:id="@+id/image_view_go_other_side"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+		    android:contentDescription="@string/empty"
+		    android:paddingBottom="5dp"
+		    android:paddingRight="10dp"
+		    android:visibility="invisible"
+		    android:src="@drawable/arrow_64" />
+
+	</RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_view_remained_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="#000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="@string/empty" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/button_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:visibility="invisible"
+            android:src="@drawable/happy" />
+
+        <ImageView
+            android:id="@+id/button_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:visibility="invisible"
+            android:src="@drawable/unknown" />
+    </LinearLayout>
+    
+</LinearLayout>

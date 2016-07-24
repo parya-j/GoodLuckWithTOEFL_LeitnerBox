@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/flash_card"
+        android:padding="20dp" >
+
+	    <TextView
+	        android:id="@+id/text_view_content_pronounce"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:maxLines="1"
+	        android:text="@string/empty"
+	        android:textColor="#FF1111"
+	        android:textSize="15sp" />
+
+		<TextView
+		    android:id="@+id/text_view_content"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:gravity="center"
+		    android:lineSpacingExtra="4dp"
+		    android:maxLines="6"
+		    android:scrollbarAlwaysDrawVerticalTrack="true"
+		    android:scrollbars="vertical"
+		    android:text="unaccustomed"
+		    android:textSize="25sp" />
+
+		<TextView
+		    android:id="@+id/text_view_content_part"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:maxLines="2"
+		    android:text="@string/empty"
+		    android:textColor="#1111FF"
+		    android:textSize="16sp" />
+
+	</RelativeLayout>
+</LinearLayout>

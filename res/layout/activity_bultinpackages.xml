@@ -1,0 +1,266 @@
+		<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffff"
+	    android:fillViewport="true" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+
+			<RelativeLayout
+			    android:id="@+id/RL_Cards_504"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+			    <ImageView
+			        android:id="@+id/button_remember"
+			        android:layout_width="70dp"
+			        android:layout_height="70dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:src="@drawable/cardsicon" />
+
+			    <TextView
+			        android:id="@+id/text_view_cards_504"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/button_remember"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:layout_toRightOf="@+id/button_remember"
+			        android:background="#0b78a8"
+			        android:gravity="left|center_vertical"
+			        android:paddingLeft="10dp"
+			        android:text="504 Words"
+			        android:textColor="#FFFFFF"
+			        android:textSize="20sp" />
+
+			    <TextView
+			        android:id="@+id/text_view_packageName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:paddingRight="2dp"
+			        android:text="500 T"
+			        android:textAppearance="?android:attr/textAppearanceSmall"
+			        android:textColor="#ffd08a"
+			        android:textSize="12sp" />
+
+			    <ImageView
+			        android:id="@+id/ImageView03"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_alignParentRight="true"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			</RelativeLayout>
+			
+			<RelativeLayout
+			    android:id="@+id/RL_Cards_GoodLuck_Level_One"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+			    <ImageView
+			        android:id="@+id/button_remember"
+			        android:layout_width="70dp"
+			        android:layout_height="70dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:src="@drawable/cardsicon" />
+
+			    <TextView
+			        android:id="@+id/text_view_cards_goodluck_level_one"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/button_remember"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:layout_toRightOf="@+id/button_remember"
+			        android:background="#0b78a8"
+			        android:gravity="left|center_vertical"
+			        android:paddingLeft="10dp"
+			        android:text="Good Luck Words Level 1"
+			        android:textColor="#FFFFFF"
+			        android:textSize="20sp" />
+
+			    <TextView
+			        android:id="@+id/text_view_packageName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:paddingRight="2dp"
+			        android:text="500 T"
+			        android:textAppearance="?android:attr/textAppearanceSmall"
+			        android:textColor="#ffd08a"
+			        android:textSize="12sp" />
+
+			    <ImageView
+			        android:id="@+id/ImageView03"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_alignParentRight="true"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			    <ImageView
+			        android:id="@+id/ImageView01"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_toLeftOf="@+id/ImageView03"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			</RelativeLayout>
+			<RelativeLayout
+			    android:id="@+id/RL_Cards_GoodLuck_Level_two"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+			    <ImageView
+			        android:id="@+id/button_remember"
+			        android:layout_width="70dp"
+			        android:layout_height="70dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:src="@drawable/cardsicon" />
+
+			    <TextView
+			        android:id="@+id/text_view_cards_goodluck_level_two"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/button_remember"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:layout_toRightOf="@+id/button_remember"
+			        android:background="#0b78a8"
+			        android:gravity="left|center_vertical"
+			        android:paddingLeft="10dp"
+			        android:text="Good Luck Words Level 2"
+			        android:textColor="#FFFFFF"
+			        android:textSize="20sp" />
+
+			    <TextView
+			        android:id="@+id/text_view_packageName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:paddingRight="2dp"
+			        android:text="500 T"
+			        android:textAppearance="?android:attr/textAppearanceSmall"
+			        android:textColor="#ffd08a"
+			        android:textSize="12sp" />
+
+			    <ImageView
+			        android:id="@+id/ImageView03"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_alignParentRight="true"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			    <ImageView
+			        android:id="@+id/ImageView01"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_toLeftOf="@+id/ImageView03"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			</RelativeLayout>
+			<RelativeLayout
+			    android:id="@+id/RL_Cards_GoodLuck_Level_three"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+			    <ImageView
+			        android:id="@+id/button_remember"
+			        android:layout_width="70dp"
+			        android:layout_height="70dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentTop="true"
+			        android:src="@drawable/cardsicon" />
+
+			    <TextView
+			        android:id="@+id/text_view_cards_goodluck_level_three"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/button_remember"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:layout_toRightOf="@+id/button_remember"
+			        android:background="#0b78a8"
+			        android:gravity="left|center_vertical"
+			        android:paddingLeft="10dp"
+			        android:text="Good Luck Words Level 3"
+			        android:textColor="#FFFFFF"
+			        android:textSize="20sp" />
+
+			    <TextView
+			        android:id="@+id/text_view_packageName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true"
+			        android:paddingRight="2dp"
+			        android:text="500 T"
+			        android:textAppearance="?android:attr/textAppearanceSmall"
+			        android:textColor="#ffd08a"
+			        android:textSize="12sp" />
+
+			    <ImageView
+			        android:id="@+id/ImageView03"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_alignParentRight="true"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			    <ImageView
+			        android:id="@+id/ImageView01"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:layout_toLeftOf="@+id/ImageView03"
+			        android:paddingBottom="5dp"
+			        android:paddingRight="5dp"
+			        android:src="@drawable/star" />
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+	</ScrollView>

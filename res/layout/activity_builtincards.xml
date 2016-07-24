@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    tools:context=".MainActivity"
+	    android:orientation="vertical"
+	    android:background="#ffffff">
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/element_text_title_cards"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="Package Name"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view_seperator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#223344" />
+
+    <TextView
+        android:id="@+id/text_view_cards_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:text="TextView"
+        android:textColor="#555555"
+        android:textSize="12sp" />
+
+	<ListView
+	    android:id="@+id/List_view_cards"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#ffffff" >
+	
+		</ListView>
+	
+</LinearLayout>
