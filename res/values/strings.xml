@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Good Luck - Leitner Box</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty"></string>
+    <string name="LeitnerBox">Leitner Box</string>
+    <string name="AddMoreCards">Add cards to Box</string>
+    <string name="Review">Review</string>
+    <string name="SelectAndAddToBox">Select and Add to Box</string>
+    <string name="PackageName">Package Name</string>
+    <string name="PremiumPackages">Premium Packages</string>
+
+</resources>

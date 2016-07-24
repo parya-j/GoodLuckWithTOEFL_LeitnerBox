@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/element_text_title_cards"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="Review today cards"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view_seperator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#223344" />
+
+    <TextView
+        android:id="@+id/text_view_side"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Front"
+        android:textColor="#222D8C"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:background="@drawable/flash_card" >
+
+	    <TextView
+	        android:id="@+id/text_view_content_pronounce"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="20dp"
+	        android:gravity="center"
+	        android:maxLines="1"
+	        android:text="@string/empty"
+	        android:textColor="#FF1111"
+	        android:textSize="15sp" />
+
+		<TextView
+		    android:id="@+id/text_view_content"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginTop="20dp"
+		    android:gravity="center"
+		    android:lineSpacingExtra="4dp"
+		    android:maxLines="6"
+		    android:scrollbarAlwaysDrawVerticalTrack="true"
+		    android:scrollbars="vertical"
+		    android:text="unaccustomed"
+		    android:textSize="25sp" />
+
+		<TextView
+		    android:id="@+id/text_view_content_part"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:maxLines="2"
+		    android:text="@string/empty"
+		    android:textColor="#1111FF"
+		    android:textSize="16sp" />
+
+		<ImageView
+		    android:id="@+id/image_view_go_other_side"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+		    android:contentDescription="@string/empty"
+		    android:paddingBottom="5dp"
+		    android:paddingRight="10dp"
+		    android:src="@drawable/arrow_64" />
+
+	</RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_view_remained_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="#000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Do you remember this card?" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/button_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:src="@drawable/happy" />
+
+        <ImageView
+            android:id="@+id/button_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:src="@drawable/unknown" />
+    </LinearLayout>
+    
+</LinearLayout>

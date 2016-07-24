@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_settings"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+	<TextView
+	    android:id="@+id/title_text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/element_text_title_about"
+	    android:gravity="center_vertical"
+	    android:paddingBottom="8dp"
+	    android:paddingLeft="10dp"
+	    android:paddingTop="8dp"
+	    android:text="Good Luck with TOEFL - About"
+	    android:textColor="#ffffff"
+	    android:textSize="15sp"
+	    android:textStyle="bold" />
+
+		<View
+			android:id="@+id/view_seperator_1"
+		    android:background="#223344"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp" />
+		
+	<ScrollView
+	    android:id="@+id/scrollView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:paddingBottom="10dp"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:paddingTop="0dp" >
+    	
+    	<LinearLayout
+    	    android:id="@+id/LinearLayout_all"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical" >
+
+    	    <LinearLayout
+    	        android:id="@+id/LinearLayout_soundVolume_title"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:orientation="horizontal" >
+
+    	        <ImageView
+    	            android:id="@+id/logo"
+    	            android:layout_width="match_parent"
+    	            android:layout_height="wrap_content"
+    	            android:adjustViewBounds="true"
+    	            android:contentDescription="@string/empty"
+    	            android:src="@drawable/logo" />
+
+    	    </LinearLayout>
+
+    	    <TextView
+    	        android:id="@+id/TextView01"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center"
+    	        android:lineSpacingExtra="3dp"
+    	        android:text="Developed by Good Luck Apps"
+    	        android:textAppearance="?android:attr/textAppearanceSmall"
+    	        android:textSize="14sp"
+    	        android:textStyle="bold" />
+
+    	    <View
+    	        android:id="@+id/view_seperator_2"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="1dp"
+    	        android:layout_marginBottom="10dp"
+    	        android:background="#223344" />
+
+    	    <TextView
+    	        android:id="@+id/body"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:lineSpacingExtra="3dp"
+    	        android:text="&quot;Good Luck with TOEFL - Leitner Box&quot; brings an opportunity to you in order to learn essential words for TOEFL exam by using Leitner learning method. You can easily create your packages and add your cards or use built-in packages provided by Good Luck Apps. For having the access to all cards of built-in packages, you need to buy the premium version of packages by clicking on &quot;Buy Packages&quot; menu. In addition, there is a widget for reviewing every day&apos;s cards."
+    	        android:textAppearance="?android:attr/textAppearanceSmall"
+    	        android:textSize="13sp" />
+
+    	    <LinearLayout
+    	        android:id="@+id/share"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center"
+    	        android:padding="5dp" >
+
+    	        <TextView
+    	            android:id="@+id/author"
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content"
+    	            android:text="It&apos;s easy to share, just click here" />
+
+    	        <ImageView
+    	            android:id="@+id/imageView2"
+    	            android:layout_width="20sp"
+    	            android:layout_height="20sp"
+    	            android:layout_marginLeft="7dp"
+    	            android:adjustViewBounds="true"
+    	            android:src="@drawable/share"
+    	            android:contentDescription="@string/empty" />
+    	    </LinearLayout>
+
+    	    <View
+    	        android:id="@+id/view_seperator_3"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="1dp"
+    	        android:layout_marginBottom="10dp"
+    	        android:layout_marginTop="10dp"
+    	        android:background="#223344" />
+
+    	    <Button
+    	        android:id="@+id/button_website"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_margin="5dp"
+    	        android:background="@drawable/element_challenge_answer"
+    	        android:text="www.goodluckapps.ir" />
+
+    	    <Button
+    	        android:id="@+id/button_thanks"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_margin="5dp"
+    	        android:background="@drawable/element_challenge_answer"
+    	        android:text="facebook.com/goodluckapps" />
+    	    
+			<Button
+			    android:id="@+id/button_bazar"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="5dp"
+			    android:background="@drawable/element_challenge_answer"
+			    android:paddingBottom="2dp"
+			    android:paddingTop="2dp"
+			    android:text="cafebazaar.ir" />
+    	</LinearLayout>
+
+	</ScrollView>
+ </LinearLayout>

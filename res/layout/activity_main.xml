@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    tools:context=".MainActivity"
+	    android:orientation="vertical"
+	    android:background="#ffffff">
+
+    	        <ImageView
+    	            android:id="@+id/logo"
+    	            android:layout_width="match_parent"
+    	            android:layout_height="100dp"
+    	            android:adjustViewBounds="true"
+    	            android:contentDescription="@string/empty"
+    	            android:src="@drawable/main_title" />
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:fillViewport="true" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" >
+
+			<RelativeLayout
+			    android:id="@+id/RL_Cards"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+				<ImageView
+				    android:id="@+id/button_cards"
+				    android:layout_width="70dp"
+				    android:layout_height="70dp"
+				    android:layout_alignParentLeft="true"
+				    android:layout_alignParentTop="true"
+				    android:src="@drawable/cardsicon" />
+
+				<TextView
+				    android:id="@+id/text_view_cards"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignBottom="@+id/button_cards"
+				    android:layout_alignParentRight="true"
+				    android:layout_alignParentTop="true"
+				    android:layout_toRightOf="@+id/button_cards"
+				    android:background="#0b78a8"
+				    android:gravity="right|center_vertical"
+				    android:paddingRight="30dp"
+				    android:text="Your Cards "
+				    android:textColor="#FFFFFF"
+				    android:textSize="30sp" />
+
+			</RelativeLayout>
+
+			<RelativeLayout
+			    android:id="@+id/RL_Boxes"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+				<ImageView
+				    android:id="@+id/button_box"
+				    android:layout_width="70dp"
+				    android:layout_height="70dp"
+				    android:layout_alignParentRight="true"
+				    android:layout_alignParentTop="true"
+				    android:src="@drawable/boxicon" />
+
+				<TextView
+				    android:id="@+id/text_view_boxes"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignBottom="@+id/button_box"
+				    android:layout_alignParentLeft="true"
+				    android:layout_alignParentTop="true"
+				    android:layout_toLeftOf="@+id/button_box"
+				    android:background="#352842"
+				    android:gravity="left|center_vertical"
+				    android:paddingLeft="30dp"
+				    android:text="Your Box"
+				    android:textColor="#FFFFFF"
+				    android:textSize="30sp" />
+
+			</RelativeLayout>
+			
+			<RelativeLayout
+			    android:id="@+id/RL_Premium"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+				<ImageView
+				    android:id="@+id/button_setting"
+				    android:layout_width="70dp"
+				    android:layout_height="70dp"
+				    android:layout_alignParentLeft="true"
+				    android:layout_alignParentTop="true"
+				    android:src="@drawable/settingsicon" />
+
+				<TextView
+				    android:id="@+id/text_view_settings"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignBottom="@+id/button_setting"
+				    android:layout_alignParentRight="true"
+				    android:layout_alignParentTop="true"
+				    android:layout_toRightOf="@+id/button_setting"
+				    android:background="#333f4f"
+				    android:gravity="right|center_vertical"
+				    android:paddingRight="30dp"
+				    android:text="Buy packages "
+				    android:textColor="#FFFFFF"
+				    android:textSize="30sp" />
+			</RelativeLayout>
+
+			<RelativeLayout
+			    android:id="@+id/RL_About"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp" >
+
+				<ImageView
+				    android:id="@+id/button_about"
+				    android:layout_width="70dp"
+				    android:layout_height="70dp"
+				    android:layout_alignParentRight="true"
+				    android:layout_alignParentTop="true"
+				    android:src="@drawable/abouticon" />
+
+				<TextView
+				    android:id="@+id/text_view_about"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignBottom="@+id/button_about"
+				    android:layout_alignParentLeft="true"
+				    android:layout_alignParentTop="true"
+				    android:layout_toLeftOf="@+id/button_about"
+				    android:background="#333333"
+				    android:gravity="left|center_vertical"
+				    android:paddingLeft="30dp"
+				    android:text="About"
+				    android:textColor="#FFFFFF"
+				    android:textSize="30sp" />
+
+			</RelativeLayout>
+
+		    <LinearLayout
+		        android:id="@+id/share"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/text_about"
+		        android:layout_centerHorizontal="true"
+		        android:layout_gravity="center"
+		        android:padding="5dp" >
+	
+		        <TextView
+		            android:id="@+id/author"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="It&apos;s easy to share, just click here" />
+	
+		        <ImageView
+		            android:id="@+id/button_forget"
+		            android:layout_width="20sp"
+		            android:layout_height="20sp"
+		            android:layout_marginLeft="7dp"
+		            android:adjustViewBounds="true"
+		            android:src="@drawable/share" />
+	
+			</LinearLayout>
+		</LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

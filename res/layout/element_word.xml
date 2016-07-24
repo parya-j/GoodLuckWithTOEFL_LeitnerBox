@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_view_room_3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/element_btn_word"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgProfilephoto"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/words" />
+
+    <Button
+        android:id="@+id/text_view_front"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:background="@android:color/transparent"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:textSize="17sp" />
+
+</RelativeLayout>
+
